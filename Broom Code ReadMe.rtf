@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Stevens and Latimer 2014 GCB \
+R Code README 11/21/14\
+\
+Workflow:\
+1) Run entire body of code in BroomStatModels.R; first for spp=\'93cs\'94 and second for spp=\'93sj\'94. This produces parameter estimates and associated standard deviations for every treatment combination, which can then be used to run demographic models in CanopyProjections.R and FireProjections.R\
+\
+If running Canopy analysis (e.g. to make MS Fig 3):\
+2) Run CanopyProjections.R Lines 1-212 (#1 - #4a) for spp=\'93cs\'94 (to where the code says \'93STOP\'94)\
+3) Run CanopyProjections.R Lines 1-212 for spp=\'93sj\'94\
+4) Run CanopyProjections.R Lines 214-end to make figure\
+\
+If running Fire analysis (e.g. to make MS Fig 4):\
+2) Run CanopyProjections.R Lines 1-98 (#1 - #2b) for spp=\'93cs\'94\
+3) Run FireProjections.R Lines 1-95 (#1 - #4) for spp=\'93cs\'94\
+4) Run CanopyProjections.R Lines 1-98 (#1 - #2b) for spp=\'93sj\'94\
+5) Run FireProjections.R Lines 1-95 (#1 - #4) for spp=\'93sj\'94\
+6) Run FireProjections.R Lines 99-end\
+}
