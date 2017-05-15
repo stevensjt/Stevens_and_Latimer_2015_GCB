@@ -1,5 +1,8 @@
 # Stevens_and_Latimer_2015_GCB
 Full workflow for: Stevens, J. T., and A. M. Latimer. 2015. Snowpack, fire, and forest disturbance: interactions affect montane invasions by non-native shrubs. Global Change Biology 21:2379-2393
+
+NOTE: To access the data and code, please do so from the Zenodo DOI: https://doi.org/10.5281/zenodo.579769, rather than submitting a pull request here. Accessing the data from Zenodo helps me keep track of usage. If you would like to make a pull request or collaborate, please contact me first (see my website). thx, JTS
+
 R Code README 11/21/14
 
 Workflow:
